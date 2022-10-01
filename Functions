@@ -1,0 +1,49 @@
+def my_fucntion():
+  print("Hello fromt a function")
+def my_function():
+  print("Hello fromt a function")
+ my_function():
+def my_function(fname, lname):
+  print(fname + "Refsnes")
+  print(fname)
+def my_function(x):
+  return x + 5
+def my_fucntion(*kids):
+  print("The youngest child is " + kids[2])
+def my_function(**kids):
+  print("His last name is " + kid["lname"]
+#end functions.exs#
+
+
+x = lambda a : a
+#end lambda.exs#
+
+
+class MyClass:
+  x = 5
+class MyClass:
+  x = 5
+p1 = MyClass()
+class MyClass:
+  x = 5
+p1 = MyClass()
+print(p1.x)
+class Person:
+  def __init__(self, fname):
+    self,name = name
+    self.age = age
+#end classes.exs#
+
+
+class Student(Person):
+class Person:
+  def __init__(self, fname):
+    print(self.firstname)
+    
+  def printname(self):
+    print(self.firstname)
+class Student(Person):
+  pass
+x = Student("Mike")
+x.printname()
+#end inheritance.exs#
